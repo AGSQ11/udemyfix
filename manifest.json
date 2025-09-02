@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Linksynergy to Udemy Redirector",
+  "version": "1.0",
+  "description": "Redirects linksynergy.com affiliate links directly to the final Udemy course page, bypassing the tracker.",
+  "permissions": [
+    "webRequest"
+  ],
+  "host_permissions": [
+    "*://*.linksynergy.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "linksynergy-redirector@jules.dev"
+    }
+  }
+}

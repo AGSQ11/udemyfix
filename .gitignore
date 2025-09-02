@@ -1,0 +1,5 @@
+# Ignore build artifacts from web-ext
+web-ext-artifacts/
+
+# Ignore node_modules directory
+node_modules/
